@@ -1,0 +1,14 @@
+{
+  "name": "pubsub",
+  "version": "1.0.0",
+  "description": "simple pubsub",
+  "main": "PubSub.js",
+  "scripts": {
+    "test": "jasmine-node tests/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
