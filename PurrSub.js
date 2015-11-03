@@ -5,10 +5,13 @@
 } (this, function () {
 	'use strict';
 
-	var PubSub = function () {
+	var PurrSub = (function () {
+		
 		var events = {};
+		
+		function PurrSub () {};
 
-		this.subscribe = function (eventName, callback) {
+		PurrSub.prototype.subscribe = function (eventName, callback) {
 			if (!events[eventName]) {
 				events[eventName] = [];
 			}
@@ -17,7 +20,7 @@
 			}
 		};
 
-		this.publish = function (eventName, param) {
+		PurrSub.prototype.publish = function (eventName, param) {
 			if (events[eventName] && events[eventName].length) {
 				events[eventName].forEach(function (callback) {
 					callback(param);
@@ -25,7 +28,7 @@
 			}
 		};
 
-		this.unsubscribe = function (eventName, callback) {
+		PurrSub.prototype.unsubscribe = function (eventName, callback) {
 			if (events[eventName] && events[eventName].length) {
 				var callbackIndex = events[eventName].indexOf(callback);
 				if (callbackIndex > -1) {
@@ -33,7 +36,9 @@
 				}
 			}
 		}
-	};
+		
+		return PurrSub;
+	})();
 
-	return PubSub;
+	return PurrSub;
 }));
