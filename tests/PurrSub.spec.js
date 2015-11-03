@@ -1,12 +1,12 @@
-var PubSub = require('../PubSub');
+var PurrSub = require('../PurrSub');
 
-describe('PubSub - a very simple event emitter', function () {
+describe('PurrSub - a very simple event emitter', function () {
 	'use strict';
 	
 	var instance;
 	
 	beforeEach(function () {
-		instance = new PubSub();
+		instance = new PurrSub();
 	});
 	
 	it('should have \'subscribe\' method defined', function () {

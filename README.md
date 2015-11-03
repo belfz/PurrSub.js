@@ -1,4 +1,4 @@
-# PubSub.js
+# PurrSub.js
 
 An ultra-light, pub-sub module. Created to replace the EventEmitter usage in some Flux-based applications.
 
@@ -9,8 +9,8 @@ PubSub.js is compatible with AMD (require.js), CommonJS (like browserify) and as
 ## Usage
 
 ```
-var PubSub = require('PubSub');
-var instance  = new PubSub();
+var PurrSub = require('PurrSub');
+var instance  = new PurrSub();
 
 ...
 
