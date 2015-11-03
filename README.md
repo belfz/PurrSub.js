@@ -1,6 +1,9 @@
 # PurrSub.js
 
 An ultra-light, pub-sub module. Created to replace the EventEmitter usage in some Flux-based applications.
+```
+npm install purrsub
+```
 
 ## Compatibility
 
