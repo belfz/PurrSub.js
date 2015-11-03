@@ -6,8 +6,15 @@
   "scripts": {
     "test": "jasmine-node tests/"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Marcin Baraniecki",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/belfz/PubSub.js"
+  },
+  "bugs": {
+    "url": "https://github.com/belfz/PubSub.js/issues"
+  }
+  "license": "MIT",
   "devDependencies": {
     "jasmine-node": "^1.14.5"
   }
