@@ -4,7 +4,7 @@ An ultra-light, pub-sub module. Created to replace the EventEmitter usage in som
 
 ## Compatibility
 
-PubSub.js is compatible with AMD (require.js), CommonJS (like browserify) and as a global script in html.
+PurrSub.js is compatible with AMD (require.js), CommonJS (like browserify) and as a global script in html.
 
 ## Usage
 
