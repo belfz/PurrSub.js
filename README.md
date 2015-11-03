@@ -12,7 +12,7 @@ PurrSub.js is compatible with AMD (require.js), CommonJS (like browserify) and a
 ## Usage
 
 ```
-var PurrSub = require('PurrSub');
+var PurrSub = require('purrsub');
 var instance  = new PurrSub();
 
 ...
