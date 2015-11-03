@@ -1,5 +1,5 @@
 {
-  "name": "PurrSub",
+  "name": "purrsub",
   "version": "1.0.0",
   "description": "simple pubsub",
   "main": "PurrSub.js",
