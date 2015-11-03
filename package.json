@@ -13,7 +13,7 @@
   },
   "bugs": {
     "url": "https://github.com/belfz/PubSub.js/issues"
-  }
+  },
   "license": "MIT",
   "devDependencies": {
     "jasmine-node": "^1.14.5"
